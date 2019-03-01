@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleSP.css">
+    <title>Simple Paint</title>
+</head>
+<body>
+    <div id="bg">
+        <canvas id="canvas" width="1500" height="600"></canvas>
+        <input type="file" id="addImg" name="addImg" >
+        <div class="slider">
+            <div>
+                <p>Brightness</p>
+                <input type="range" min="-10" max="10" id="brightness" step="10"></input>
+            </div>
+        <select id="color">
+            <option value="black">black</option>
+            <option value="white">white</option>
+            <option value="red">Red</option>
+            <option value="pink">pink</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">yellow</option>
+
+          </select>
+          <input type="button" value="Reset" onClick="location.href=location.href">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
