@@ -1,0 +1,71 @@
+body
+{
+  background-color: rgb(197, 94, 94);
+}
+.board {
+    position: relative;
+    width : 600px;
+    height: 600px;
+    border: 10px solid rgb(189, 186, 56);
+  }
+  
+.ball {
+  position: absolute;
+  width : 20px;
+  height: 20px;
+  background: rgb(0, 0, 0);
+  border-radius: 100%;
+  z-index: 10;
+}
+.target1
+{
+  position: absolute;
+  top: 10px;
+  left: 550px;
+  width: 40px;
+  height: 40px;
+  background: rgb(137, 212, 102);
+  border-radius: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: 33px;
+}
+.target2
+{
+  position: absolute;
+  top: 550px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background: rgb(137, 212, 102);
+  border-radius: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: 33px;
+}
+.target3
+{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background: rgb(137, 212, 102);
+  border-radius: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: 33px;
+}
+.target4
+{
+  position: absolute;
+  top: 550px;
+  left: 550px;
+  width: 40px;
+  height: 40px;
+  background: rgb(137, 212, 102);
+  border-radius: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: 33px;
+}
