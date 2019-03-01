@@ -1,0 +1,53 @@
+body
+{
+    background-color: #1f2041;
+}
+#main
+{
+    float: left;
+    
+    width: 100%;
+}
+.b1
+{
+    display: flex;
+    width: 100%;
+}
+.box
+{
+    margin: 50px;
+    display: block;
+    background-color: #119da4;
+    width: 166px;
+    margin-left: 100px;
+    height: 166px;
+    text-align: center;
+    position: relative;
+    font-size: 111px;
+    color: #ffffff;
+    border-radius: 15px;
+}
+span
+{
+    vertical-align: middle;
+}
+button {
+    background-color: #119da4;
+    color: rgb(230, 230, 230);
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 25px;
+  }
+#recorddiv
+{
+    display: flex;
+}
+.Rdiv
+{
+    padding: 55px;
+    text-align: center;
+}
