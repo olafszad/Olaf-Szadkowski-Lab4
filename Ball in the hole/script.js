@@ -38,28 +38,33 @@ function speedd()
   yy += y*s;
   ball.style.top  = (300 + xx) + "px";
   ball.style.left = (300 + yy) + "px";
-  
+
+  console.log(score);
 
   //po wyjściu za ramke, gra się kończy
   if (xx >= 280 || xx <= -300 || yy >= 280 || yy <= -300)
   {
     gameOver();
   }
-  if(score == 0 && xx>=250 && xx<=270 && yy>=250 && yy<=270)
+
+  //warunek wygranej, przejedź przez 4 pkt po kolei
+
+  if(score === 0 && xx>=250 && xx<=270 && yy>=250 && yy<=270)
   {
-    score += 1;
+    score = 1;
   }
-  if(score == 1 && xx>=250 && xx<=270 && yy>=-250 && yy<=-270)
+  if(score === 1 && xx>=250 && xx<=270 && yy<=-250 && yy>=-270)
   {
-    score += 1;
+    score = 2;
+    console.log("haaa");
   }
-  if(score == 2 && xx>=-250 && xx<=-270 && yy>=-250 && yy<=-270)
+  if(score === 2 && xx<=-250 && xx>=-270 && yy<=-250 && yy>=-270)
   {
-    score += 1;
+    score = 3;
   }
-  if(score == 3 && xx>=-250 && xx<=-270 && yy>=250 && yy<=270)
+  if(score === 3 && xx<=-250 && xx>=-270 && yy>=250 && yy<=270)
   {
-    score += 1;
+    score = 4;
   }
   if(score == 4)
   {
@@ -68,6 +73,7 @@ function speedd()
 
 }
 
+//funkcja przegrywania
 
 function gameOver()
 {
@@ -75,6 +81,8 @@ function gameOver()
   yy = 0;
   score = 0;
 }
+
+//funkcja wygranej
 
 function wingame()
 {
