@@ -1,0 +1,60 @@
+body
+{
+    background-color: #291f1e;
+}
+#title
+{
+    margin: 55px;
+    font-size: 55px;
+    text-align: left;
+    color: #c4d6b0;
+}
+#button
+{
+    text-align: left;
+}
+button {
+    background-color: #477998;
+    border-radius: 25px;
+    border-color: transparent;
+    text-align: center;
+    font-size: 15px;
+    color: #c4d6b0;
+    cursor: pointer;
+}
+hr
+{
+    margin-top: 20px;
+    color: #c4d6b0;
+}
+#notes
+{
+    text-align: center;
+}
+.Note
+{
+    display: inline-block;
+    height: 400px;
+    width: 190px;
+    border: #c4d6b0;
+    border-style: solid;
+    margin-left: 80px;
+    margin-top: 40px;
+    vertical-align: top;
+}
+.NoteTitle
+{
+    border-bottom: #c4d6b0;
+    height: 50px;
+    font-size: 30px;
+}
+.NoteContent
+{
+    font-size: 25px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+#hr2
+{
+    margin-top: 40px;
+}
