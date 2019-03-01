@@ -151,8 +151,6 @@ function PlayPath(charCode )
         }
     });
 
-// Przycisk play, gra patch1
-
     play1.addEventListener('click' ,  function(){
         Reader1(path1);
     });  
