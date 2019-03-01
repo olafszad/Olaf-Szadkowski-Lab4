@@ -7,7 +7,7 @@ note = document.getElementById("note");
 let number = 1;
 let noteBackground = '#c4d6b0';
 
-// Ładowanie zapisanych w Local Storage notatek
+// Ładowanie zapisanych notatek
 window.onload = function add(){
     
     for (let i = 1; i <= 6; i++)
@@ -25,12 +25,12 @@ window.onload = function add(){
     }
     
 }
-// Usuwanie notatki
+// Usuwanie notatek
 function remove(){
     localStorage.clear();
     location.reload(); 
 }
-// Dodanie notatki do Local Storage
+// Dodanie notatki
 function add(){
     console.log(number)
     let ndata = { "Title" : notetitle.value,"Note" : notecontent.value, "ID" : number,"Color": noteBackground,"Date":getDate()};
@@ -48,7 +48,7 @@ function add(){
     if (number > 6) { number = 6};
     
 }
-
+//zmiana kolorków
 function ChangeColor(n){
     noteBackground = n;
 }
