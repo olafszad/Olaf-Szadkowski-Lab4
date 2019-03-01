@@ -53,8 +53,41 @@ hr
     font-size: 25px;
     padding: 10px;
     word-wrap: break-word;
+    overflow: auto;
+    height: 275px; 
 }
 #hr2
 {
     margin-top: 40px;
+}
+
+#red
+{
+    background-color: red;
+    height: 20px;
+}
+#blue
+{
+    background-color: blue;
+    height: 20px;
+}
+#yellow
+{
+    background-color: yellow;
+    height: 20px;
+}
+#pink
+{
+    background-color: pink;
+    height: 20px;
+}
+#green
+{
+    background-color: green;
+    height: 20px;
+}
+#purple
+{
+    background-color: purple;
+    height: 20px;
 }
