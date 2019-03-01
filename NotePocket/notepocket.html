@@ -12,10 +12,19 @@
         Notes
     </div>
     <div id="button">
-        <button onclick="add()" id="add">Dodaj Notatkę</button>
-        <input type="text" id="notetilte">
+        <button onclick="add()" id="add">Dodaj notatkę</button>
+        <input type="text" id="notetitle" maxlength="8">
+        
         <input type="text" id="notecontent">
-        <button onclick="remove()">Usuń notatkę</button>
+        <button onclick="remove()">Usuń notatki</button>
+        <div id="color">
+            <button id="red"></button>
+            <button id="blue"></button>
+            <button id="yellow"></button>
+            <button id="pink"></button>
+            <button id="green"></button>
+            <button id="purple"></button>
+        </div>
     </div>
     <hr width="100%">
     <div id="notes">
